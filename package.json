@@ -17,6 +17,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.14.0"
+    "node-sass": "^4.14.0",
+    "autoprefixer":"^7.1.4",
+    "concat":"^1.0.3",
+    "npm-run-all":"^4.1.1",
+    "postcss-cli":"^4.1.1"
+
+
   }
 }

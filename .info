@@ -1,4 +1,7 @@
 //"start": "npm-run-all --parallel devserver watch:sass",
+icomoon.io -> for svg icon
+cubic bezier->
+html entities ->
 
 npm i --save-dev concat ->  multiple css file,
 npm i --save-dev autoprefixer -> dnuma webkit aoutomat part of postcss-cli plagin
@@ -6,8 +9,7 @@ npm i --save-dev postcss-cli -> plgagin
 npm i --save-dev npm-run-all  -> run all scripts;
 
 flex: 0 0 18%;
-icomoon.io -> for svg icon
-cubic bezier
+
 currentColor ->parent color;
 transform-origin:
 flex: 1 same margin-right: auto
