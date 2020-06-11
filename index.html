@@ -8,222 +8,210 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"/>
 
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <!--<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>-->
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <img src="img/logo.png" alt="logo" class="logo">
-            <form action="" class="search">
-                <input type="text" placeholder="Search hotel" class="search__input">
-                <button class="search__button">
-                    <svg class="search__icon">
-                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
-                    </svg>
-                </button>
-            </form>
-            <nav class="user-nav">
-                <div class="user-nav__icon-box">
-                    <svg class="user-nav__icon">
-                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
-                    </svg>
-                    <span class="user-nav__notification">7</span>
-                </div>
-                <div class="user-nav__icon-box">
-                    <svg class="user-nav__icon">
-                        <use xlink:href="img/sprite.svg#icon-chat"></use>
-                    </svg>
-                    <span class="user-nav__notification">13</span>
-                </div>
-                <div class="user-nav__user">
-                    <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
-                    <span class="user-nav__user-name">Jones</span>
-                </div>
-            </nav>
-        </header>
-        <div class="content">
-            <nav class="sidebar">
-                <ul class="side-nav">
-                    <li class="side-nav__item side-nav__item--active">
-                        <a href="" class="side-nav__link">
-                            <svg class="side-nav__icon">
-                                <use xlink:href="img/sprite.svg#icon-home"></use>
-                            </svg>
-                            <span>Hotel</span>
-                        </a>
-                    </li>
-                    <li class="side-nav__item">
-                        <a href="" class="side-nav__link">
-                            <svg class="side-nav__icon">
-                                <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
-                            </svg>
-                            <span>Flight</span>
-                        </a>
-                    </li>
-                    <li class="side-nav__item">
-                        <a href="" class="side-nav__link">
-                            <svg class="side-nav__icon">
-                                <use xlink:href="img/sprite.svg#icon-key"></use>
-                            </svg>
-                            <span>Car rental</span>
-                        </a>
-                    </li>
-                    <li class="side-nav__item">
-                        <a href="" class="side-nav__link">
-                            <svg class="side-nav__icon">
-                                <use xlink:href="img/sprite.svg#icon-map"></use>
-                            </svg>
-                            <span>Tours</span>
-                        </a>
-                    </li>
-                </ul>
+    <div class="navigation">
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">
+                         About Natous
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">
+                         Your benfits
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">
+                        Stories
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">
+                        Book now
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <header class="header">
+        <div class="header-text">
+            <h1 class="header__title">
+                Lorem   ipsum dolor   sit amet
+            </h1>
+            <p class="header__paragraph">
+                Dolor sit amet nullam pede semper est, vitae luctus metus libero eu augue. Morbi purus sed libero, faucibus adipiscing, commodo.
+            </p>
+            <div class="header__button">
+                <button>Get started</button>
+            </div>
 
-                <div class="legal">
-                    &copy; 2020 by trillo. All rights reserved.
+        </div>
+    </header>
+    <section class="section-one">
+        <div class="section-one__part-one">
+            <div class="section-one__main">
+                <div class="section-one__image-block image-right">
+                    <img src="img/section-one.jpg" class="section-one__image " alt="section one">
                 </div>
-
-            </nav>
-            <main class="hotel-view">
-                <div class="gallery">
-                   <figure class="gallery__item">
-                       <img src="img/hotel-1.jpg" alt="" class="gallery__photo">
-                   </figure>
-                   <figure class="gallery__item">
-                       <img src="img/hotel-2.jpg" alt="" class="gallery__photo">
-                   </figure>
-                   <figure class="gallery__item">
-                       <img src="img/hotel-3.jpg" alt="" class="gallery__photo">
-                   </figure>
-               </div>
-                <div class="overview">
-                    <h1 class="overview__heading">
-                        Hotel Las Palmas
-                    </h1>
-                    <div class="overview__stars">
-                        <svg class="overview__icon-star">
-                            <use xlink:href="img/sprite.svg#icon-star"></use>
-                        </svg>
-                        <svg class="overview__icon-star">
-                            <use xlink:href="img/sprite.svg#icon-star"></use>
-                        </svg>
-                        <svg class="overview__icon-star">
-                            <use xlink:href="img/sprite.svg#icon-star"></use>
-                        </svg>
-                        <svg class="overview__icon-star">
-                            <use xlink:href="img/sprite.svg#icon-star"></use>
-                        </svg>
-                        <svg class="overview__icon-star">
-                            <use xlink:href="img/sprite.svg#icon-star"></use>
-                        </svg>
-                    </div>
-                    <div class="overview__location">
-                        <svg class="overview__icon-location">
-                            <use xlink:href="img/sprite.svg#icon-location-pin"></use>
-                        </svg>
-                        <button class="button-inline">
-                            Albufeira,Portugal
-                        </button>
-                    </div>
-                    <div class="overview__rating">
-                        <div class="overview__rating-average">8.6</div>
-                        <div class="overview__rating-count">429 votes</div>
-                    </div>
-                </div>
-                <div class="detail">
-                    <div class="description">
-                        <p class="paragraph">
-                          Lorem ipsum dolor sit amet,
-                          consectetur adipisicing elit.
-                          Animi nisi dignissimos debitis
-                          ratione sapiente saepe.
-                          Accusantium cumque, quas,
-                          ut corporis incidunt deserunt
-                          quae architecto voluptate.
-
-                      </p>
-                        <p class="paragraph">
-                           Accusantium cumque, quas, ut
-                           corporis incidunt deserunt
-                           quae architecto voluptate
-                           delectus, inventore iure
-                           aliquid aliquam.
-                        </p>
-                        <ul class="list">
-                            <li class="list__item">Close to the beach</li>
-                            <li class="list__item">Breakfast included</li>
-                            <li class="list__item">Free airport shuttle</li>
-                            <li class="list__item">Free wifi in all rooms</li>
-                            <li class="list__item">Air conditioning and heating</li>
-                            <li class="list__item">Pets allowed</li>
-                            <li class="list__item">We speak all languages</li>
-                            <li class="list__item">Perfect for families</li>
-                        </ul>
-                        <div class="recommend">
-                            <p class="recommend__count">
-                                Lucy and 3 other friends recommend this hotel.
-                            </p>
-                            <div class="recommend__friends">
-                                <img src="img/user-3.jpg" alt="friend 1" class="recommend__photo">
-                                <img src="img/user-4.jpg" alt="friend 2" class="recommend__photo">
-                                <img src="img/user-5.jpg" alt="friend 3" class="recommend__photo">
-                                <img src="img/user-6.jpg" alt="friend 4" class="recommend__photo">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="user-reviews">
-                        <figure class="review">
-                            <blockquote class="review__text">
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Fuga doloremque architecto
-                                dicta animi, totam, itaque
-                                officia ex.
-                            </blockquote>
-                            <figcaption class="review__user">
-                                <img src="img/user-1.jpg" alt="user-1" class="review__photo">
-                                <div class="review__user-box">
-                                    <p class="review__user-name">Nick Smith</p>
-                                    <p class="review__user-date">Feb 23rd, 2017</p>
-                                </div>
-                                <div class="review__rating">
-                                    7.8
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <figure class="review">
-                            <blockquote class="review__text">
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Fuga doloremque architecto
-                                dicta animi.
-                            </blockquote>
-                            <figcaption class="review__user">
-                                <img src="img/user-2.jpg" alt="user-2" class="review__photo">
-                                <div class="review__user-box">
-                                    <p class="review__user-name">Mary Smith</p>
-                                    <p class="review__user-date">Feb 25rd, 2018</p>
-                                </div>
-                                <div class="review__rating">
-                                    9.3
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <button class="button-inline">
-                            show all <span>&rarr;</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="cta">
-                    <h2 class="cta__book-now">
-                        Good news! We have 4 free rooms for you selected dates!
-                    </h2>
-                    <button class="button">
-                        <span class="button__visible">Book now</span>
-                        <span class="button__invisible">Only 4 rooms left</span>
+                <h2 class="section-one__main__text headingH2">
+                    INTEGIS VITAE UNON LIBETUE
+                </h2>
+                <div class="section-one__main-content orderTwo">
+                    <h3 class="section-one__main-content__title headingH3">
+                        Morbi purus sed libero
+                        faucibus adipiscing
+                    </h3>
+                    <p class="section-one__main-content__paragraph main-paragraph">
+                        Sed egestas, ante et vulputate lorem ipsum dolor sit amet nullam pede semper est, vitae luctus metus libero eu augue. Morbi purus sed libero, faucibus adipiscing, gravida lorem ipsum.
+                    </p>
+                    <button class="section-one__main-content__button">
+                        Learn more
                     </button>
                 </div>
-            </main>
+            </div>
         </div>
-    </div>
+        <div class="section-one__part-two">
+            <div class="section-one__main">
+                <div class="section-one__image-block image-left">
+                    <img src="img/section-one.jpg" class="section-one__image " alt="section one">
+                </div>
+                <h2 class="section-one__main__text headingH2">
+                    INTEGIS VITAE UNON LIBETUE
+                </h2>
+                <div class="section-one__main-content orderOne">
+                    <h3 class="section-one__main-content__title headingH3">
+                        Morbi purus sed libero
+                        faucibus adipiscing
+                    </h3>
+                    <p class="section-one__main-content__paragraph main-paragraph">
+                        Sed egestas, ante et vulputate lorem ipsum dolor sit amet nullam pede semper est, vitae luctus metus libero eu augue. Morbi purus sed libero, faucibus adipiscing, gravida lorem ipsum.
+                    </p>
+                    <button class="section-one__main-content__button">
+                        Learn more
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="section-one__part-three">
+            <div class="section-one__main">
+                <div class="section-one__image-block image-right">
+                    <img src="img/section-one.jpg" class="section-one__image " alt="section one">
+                </div>
+                <h2 class="section-one__main__text headingH2">
+                    INTEGIS VITAE UNON LIBETUE
+                </h2>
+                <div class="section-one__main-content orderTwo">
+                    <h3 class="section-one__main-content__title headingH3">
+                        Morbi purus sed libero
+                        faucibus adipiscing
+                    </h3>
+                    <p class="section-one__main-content__paragraph main-paragraph">
+                        Sed egestas, ante et vulputate lorem ipsum dolor sit amet nullam pede semper est, vitae luctus metus libero eu augue. Morbi purus sed libero, faucibus adipiscing, gravida lorem ipsum.
+                    </p>
+                    <button class="section-one__main-content__button">
+                        Learn more
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section  class="section-two">
+        <h2 class="section-two__title titleHeadingH2">SED ADIPISCING</h2>
+        <div class="section-two__slide">
+            <div class="section-two__slide__content">
+                <div class="section-two__slide__content__image-block">
+                    <img src="img/section-two.jpg" alt="" class="slide-image">
+                </div>
+                <div class="main">
+                    <h3 class="headingH3">Magna libero faucibus adipiscing</h3>
+                    <p class="main-paragraph">Sed egestas, ante et vulputate lorem ipsum dolor sit amet nullam pede semper est, vitae luctus metus libero
+                        eu augue. Morbi purus sed libero, faucibus adipiscing, commodo quis, gravida lorem ipsum.</p>
+                    <button class="slide__button">
+                        Learn more
+                    </button>
+                </div>
+            </div>
+            <div class="section-two__slide__arrow">
+                <span class="arrow__previous"></span>
+                <span class="arrow__next"></span>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </body>
 </html>
+//https://templated.co/p/7605153616677876
